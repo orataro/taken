@@ -3,72 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>スポット名 - 岐阜県おすすめスポット</title>
+    <title>岐阜県おすすめスポットガイド</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>【1. 場所・お店の名前】</h1>
-        <nav>
-            <a href="index.html">← トップページに戻る</a>
-        </nav>
+        <h1>岐阜県おすすめスポットガイド</h1>
+        <p>私たちが厳選した岐阜県内の魅力的な場所を紹介します！</p>
     </header>
 
     <main>
-        <!-- 6. 画像 -->
-        <img src="images/spot-a.jpg" alt="スポットの画像" class="main-image">
+        <h2>紹介スポット一覧</h2>
+        
+        <div class="spot-grid">
+            <!-- Aさんの紹介スポット -->
+            <article class="spot-card">
+                <img src="images/spot-a.jpg" alt="スポットAの画像">
+                <div class="spot-card-content">
+                    <h3>【スポットAの名前】</h3>
+                    <p>スポットAの短い説明をここに記述します。</p>
+                    <a href="spot-a.html" class="btn-link">詳細を見る</a>
+                </div>
+            </article>
 
-        <section>
-            <h2>どのような場所か</h2>
-            <!-- 2. 説明 -->
-            <p>ここに場所の詳しい説明文を記述します。（※体験していない場合は調べた情報をもとに客観的に記述）</p>
-        </section>
-
-        <section>
-            <h2>おすすめポイント</h2>
-            <!-- 3. おすすめポイント2つ以上 -->
-            <ul>
-                <li><strong>ポイント1：</strong> ○○○○○○○○○○</li>
-                <li><strong>ポイント2：</strong> ○○○○○○○○○○</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>こんな人におすすめ！</h2>
-            <!-- 4. どのような人におすすめか -->
-            <p>家族連れ / 写真撮影が好きな人 / 歴史や自然が好きな人 など</p>
-        </section>
-
-        <section>
-            <h2>基本情報・アクセス</h2>
-            <!-- 5. 所在地・アクセス方法 -->
-            <table class="info-table">
-                <tr>
-                    <th>所在地</th>
-                    <td>岐阜県〇〇市〇〇 1-2-3</td>
-                </tr>
-                <tr>
-                    <th>アクセス</th>
-                    <td>JR〇〇駅から徒歩10分 / 名神高速〇〇ICより車で15分</td>
-                </tr>
-                <tr>
-                    <th>公式サイト</th>
-                    <!-- 7. 公式サイト等へのリンク -->
-                    <td><a href="https://example.com" target="_blank" rel="noopener">公式サイトを開く</a></td>
-                </tr>
-                <tr>
-                    <th>情報確認日</th>
-                    <!-- 8. 情報を確認した日付 -->
-                    <td>2026年10月8日</td>
-                </tr>
-            </table>
-        </section>
-
-        <!-- 9. トップページに戻るリンク -->
-        <p style="text-align: center; margin-top: 2rem;">
-            <a href="index.html" class="btn-link">トップページへ戻る</a>
-        </p>
+            <!-- Bさんの紹介スポット -->
+            <article class="spot-card">
+                <img src="images/spot-b.jpg" alt="スポットBの画像">
+                <div class="spot-card-content">
+                    <h3>【スポットBの名前】</h3>
+                    <p>スポットBの短い説明をここに記述します。</p>
+                    <a href="spot-b.html" class="btn-link">詳細を見る</a>
+                </div>
+            </article>
+        </div>
     </main>
 
     <footer>
