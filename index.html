@@ -3,35 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webサイトのタイトル</title>
+    <title>岐阜県おすすめスポットガイド</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Webサイトのタイトル</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">概要</a></li>
-                <li><a href="#services">サービス</a></li>
-                <li><a href="#contact">お問い合わせ</a></li>
-            </ul>
-        </nav>
+        <h1>岐阜県おすすめスポットガイド</h1>
+        <p>私たちが厳選した岐阜県内の魅力的な場所を紹介します！</p>
     </header>
 
     <main>
-        <section id="about">
-            <h2>概要</h2>
-            <p>ここに見出しや本文などのメインコンテンツを記述します。</p>
-        </section>
+        <h2>紹介スポット一覧</h2>
+        
+        <div class="spot-grid">
+            <!-- Aさんの紹介スポット -->
+            <article class="spot-card">
+                <img src="images/spot-a.jpg" alt="スポットAの画像">
+                <div class="spot-card-content">
+                    <h3>【スポットAの名前】</h3>
+                    <p>スポットAの短い説明をここに記述します。</p>
+                    <a href="spot-a.html" class="btn-link">詳細を見る</a>
+                </div>
+            </article>
 
-        <section id="services">
-            <h2>サービス</h2>
-            <p>提供しているサービスやコンテンツを紹介します。</p>
-        </section>
+            <!-- Bさんの紹介スポット -->
+            <article class="spot-card">
+                <img src="images/spot-b.jpg" alt="スポットBの画像">
+                <div class="spot-card-content">
+                    <h3>【スポットBの名前】</h3>
+                    <p>スポットBの短い説明をここに記述します。</p>
+                    <a href="spot-b.html" class="btn-link">詳細を見る</a>
+                </div>
+            </article>
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2026 Your Name / Company. All rights reserved.</p>
+        <p>&copy; 2026 岐阜スポット制作チーム</p>
     </footer>
 
 </body>
